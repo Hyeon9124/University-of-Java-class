@@ -1,4 +1,4 @@
-package Midterm_exam_4;
+package midterm_exam_4;
 
 public class OverridePolyTest {
     public static void main(String[] args) {

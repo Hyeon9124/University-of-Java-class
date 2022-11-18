@@ -1,4 +1,4 @@
-package Midterm_exam_3;
+package midterm_exam_3;
 
 class Telephone extends Phone{ // extends를 사용해 상속관계 선언
     protected final String time;

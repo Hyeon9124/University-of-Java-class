@@ -1,4 +1,4 @@
-package Midterm_exam_3;
+package midterm_exam_3;
 
 public class PhoneTest {
     public static void main(String[] args) {

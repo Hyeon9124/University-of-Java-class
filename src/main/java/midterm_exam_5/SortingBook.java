@@ -1,4 +1,4 @@
-package Midterm_exam_5;
+package midterm_exam_5;
 import java.util.Arrays;
 public class SortingBook {
     public static void main(String[] args) {

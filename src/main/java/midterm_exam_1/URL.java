@@ -1,4 +1,4 @@
-package Midterm_exam_1;
+package midterm_exam_1;
 import java.util.Scanner;
 public class URL {
     public static void main(String[] args) {

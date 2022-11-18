@@ -1,4 +1,4 @@
-package Midterm_exam_4;
+package midterm_exam_4;
 
 class Car extends Vehicle{ // extends를 사용해 상속관계 선언
     int displacement;

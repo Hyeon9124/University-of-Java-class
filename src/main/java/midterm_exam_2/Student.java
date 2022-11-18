@@ -1,4 +1,4 @@
-package Midterm_exam_2;
+package midterm_exam_2;
 public class Student extends Person{ // extends를 사용해 상속관계 선언
     long number;
 

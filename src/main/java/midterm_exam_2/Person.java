@@ -1,4 +1,4 @@
-package Midterm_exam_2;
+package midterm_exam_2;
 class Person{
     String name;
     int age;

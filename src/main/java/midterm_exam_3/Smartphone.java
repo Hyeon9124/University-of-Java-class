@@ -1,4 +1,4 @@
-package Midterm_exam_3;
+package midterm_exam_3;
 
 class Smartphone extends Telephone{ // extends를 사용해 상속관계 선언
     private final String game;

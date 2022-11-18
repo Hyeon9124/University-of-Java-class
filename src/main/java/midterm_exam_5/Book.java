@@ -1,4 +1,4 @@
-package Midterm_exam_5;
+package midterm_exam_5;
 
 public class Book implements Comparable<Book>{
     int price;
