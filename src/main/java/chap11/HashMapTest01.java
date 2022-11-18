@@ -21,7 +21,13 @@ public class HashMapTest01 {
             // getKey(), get.Value()를 사용하여 entrySet 값을 출력
             // 순서는 상관 없음.
         }
+        System.out.println();
         // Set<Map.Entry<K, V>> entrySet() : 모든 Key-Value 값을 Set 타입으로 반환한다.
-
+        
+        /** Lambda 사용 방법 **/
+        System.out.println("----Lambda----");
+        fruits.forEach((key, value) ->{
+            System.out.println(key + " : " + value);
+        });
     }
 }
