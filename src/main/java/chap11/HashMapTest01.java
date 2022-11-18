@@ -29,3 +29,11 @@ public class HashMapTest01 {
         fruits.forEach((key, value) -> System.out.println(key + " : " + value));
     }
 }
+/**
+ * HashMap 대신 Map 사용하는 이유 : 여러가지 종류들의 Map들은 모두 Map Interface를 구현하는 구조로 정의되어 있다.
+ * 그렇기 때문에 그냥 Map Interface를 사용해서 HashMap을 사용하게 되면 나중에 HashMap이 아닌 다른 종류의 Map을 사용해야
+ * 하는 상황이 발생하면 많은 코드 수정 필요없이 손쉽게 이를 반영할 수 있다.
+
+ * 하지만 HashMap으로 선언하면 오직 HashMap에 대한 Object만 담을 수 있기 때문에 코드 수정이 더 많아지고 불편해진다.
+ * 즉, 유지 보수성이 떨어진다고 할 수 있다.
+ **/
