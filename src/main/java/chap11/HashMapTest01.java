@@ -26,8 +26,6 @@ public class HashMapTest01 {
         
         /** Lambda 사용 방법 **/
         System.out.println("----Lambda----");
-        fruits.forEach((key, value) ->{
-            System.out.println(key + " : " + value);
-        });
+        fruits.forEach((key, value) -> System.out.println(key + " : " + value));
     }
 }
