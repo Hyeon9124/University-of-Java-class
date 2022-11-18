@@ -35,7 +35,7 @@ public class HashMapTest05 {
  */
 
 /**
- * efault void forEach(BiConsumer<? super K, ? super V> action) {
+ * default void forEach(BiConsumer<? super K, ? super V> action) {
  *         Objects.requireNonNull(action);
  *         for (Map.Entry<K, V> entry : entrySet()) {
  *             K k;
