@@ -20,7 +20,7 @@ public class HashMapTest04 {
 
         /*
          *  entrySet()로 모든 Map.Entry를 Set Collection으로 얻은 다음
-         *  반복자를 통해 Map.Entry를 하나씩 얻고 getKey()와 getValue()를 통헤 key와 value를 얻는다.
+         *  반복자를 통해 Map.Entry를 하나씩 얻고 getKey()와 getValue()를 통해 key와 value를 얻는다.
          */
 
         while(itr.hasNext()){ // 다음 위치에 원소가 있는지 조사
