@@ -16,7 +16,7 @@ public class SetTest2 {
 
          // [2] : equals() and hashcode()
         /** hashcode() 와 equals() 둘 다 있어야 중복을 걸러낼 수 있다.
-         * 둘 중에 한 개라도 없으면 중복을 걸러낼 수 없다!!
+         * 둘 중에 한 개라도 없으면 중복을 걸러낼 수 없다!! -- ★ 매우 중요 ★
 
          * Set Interface에서 가장 중요한 부분 **/
         @Override
