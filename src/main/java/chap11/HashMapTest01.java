@@ -12,7 +12,7 @@ public class HashMapTest01 {
         // of 메소드를 이용해서 최대 10개까지 만들 수 있음.
 
         Map<String, Integer> fruits = new HashMap<>(map); // map 데이터를 fruits에 가져옴
-        fruits.put("귤", 2); // fruits에 "귤", 2 데이터를 입력
+        fruits.put("귤", 2); // fruits에 (key, value) = ("귤", 2) 데이터를 입력
 
         // foreach 사용
         for(Map.Entry<String, Integer> entrySet : fruits.entrySet()){ // entrySet()으로 Map에 있는 데이터를 가져온다.
