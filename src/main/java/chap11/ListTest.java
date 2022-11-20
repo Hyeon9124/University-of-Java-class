@@ -7,7 +7,7 @@ public class ListTest {
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder();
 
-        String[] animals1 = new String[]{"사슴", "호랑이", "바다표범", "곰"}; // arr는 크기가 정해져 있음.
+        String[] animals1 = {"사슴", "호랑이", "바다표범", "곰"}; // arr는 크기가 정해져 있음.
 
         // [1]
         List<String> animals2 = Arrays.asList(animals1); // arr 배열을 List 타입으로 반환

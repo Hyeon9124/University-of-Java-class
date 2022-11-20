@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class SetTest {
     public static void main(String[] args) {
-        String[] fruits = new String[]{"사과", "바나나", "포도", "수박"};
+        String[] fruits = {"사과", "바나나", "포도", "수박"};
 
         // 2개의 object 생성 및 초기화
         Set<String> hs1 = new HashSet<>();
