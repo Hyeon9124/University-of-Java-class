@@ -1,5 +1,4 @@
 package chap11;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -26,7 +25,6 @@ public class HashMapTest05 {
         map.forEach((key, value) -> {
             System.out.println(key + " " + value);
         }); // 위의 코드가 훤씬 보기 좋고 간단함..  한 줄로 쓰는 연습을 많이 하고 익숙해져야 함.
-
     }
 }
 /*

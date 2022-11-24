@@ -1,17 +1,7 @@
 package chap02;
-import java.io.BufferedWriter;
-import java.io.IOException;
-import java.io.OutputStreamWriter;
-
-public class HelloJava {
-    public static void main(String[] args) throws IOException {
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-
-        bw.write("Hello Java World!");
-        bw.flush();
-        bw.close();
-    }
-}
-// ctrl + / : 주석 // 생성, "comment 처리"
-// ctrl + D : 바로 윗줄 복사
-// ctrl + Z : undo
+public class HelloJava { // 클래스 시작
+    public static void main(String[] args) { // 메서드 본체 시작
+        System.out.println("Hello Java World!"); // 실행문은 세미콜론(;)으로 끝난다.
+        // Hello Java World! 출력
+    } // 메서드 끝
+} // 클래스 끝

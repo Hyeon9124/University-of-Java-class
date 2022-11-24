@@ -1,8 +1,6 @@
 package chap11;
-
 import java.util.Arrays;
 import java.util.List;
-
 public class ListTest {
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder();
@@ -20,7 +18,6 @@ public class ListTest {
             System.out.print(s + " ");
         }
         System.out.println();
-
 
         // [2] : length를 기준으로 Ascending
 
@@ -40,7 +37,6 @@ public class ListTest {
             sb.append(animals3[i] + " ");
         }
         System.out.println(sb);
-
 
         // of() factory method 
         // [3] : immutable Data(불변 데이터) => set() method 사용불가

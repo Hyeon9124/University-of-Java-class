@@ -1,9 +1,7 @@
 package chap11;
-
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Iterator;
-
 public class IteratorTest {
     public static void main(String[] args) {
         Collection<String> list =  Arrays.asList("다람쥐", "개구리", "나비", "고양이"); // 객체를 List Type으로 변경
@@ -20,7 +18,6 @@ public class IteratorTest {
             System.out.print(iterator.next() + " ");
         }
          */
-
         System.out.println();
 
         // [3]
@@ -33,7 +30,6 @@ public class IteratorTest {
         for(String s : list){
             System.out.print(s + " ");
         }
-
     }
 }
 /**

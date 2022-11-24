@@ -1,8 +1,6 @@
 package chap11;
-
 import java.util.HashSet;
 import java.util.Set;
-
 public class SetTest {
     public static void main(String[] args) {
         String[] fruits = {"사과", "바나나", "포도", "수박"};

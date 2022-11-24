@@ -1,9 +1,7 @@
 package chap11;
-
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
-
 public class SortTest01 {
     public static void main(String[] args) {
         String[] fruits = {"포도", "수박", "사과", "키위", "망고"}; // String type의 arr
@@ -21,7 +19,6 @@ public class SortTest01 {
         // 가나다라마바사아자차카타파하
         // Collections.reverseOrder() : List의 역방향이므로 오름차순에서 내림차순으로 변경된다.
         System.out.println(list); // 출력 결과 : [포도, 키위, 수박, 사과, 망고]
-
     }
 }
 // sort : List를 오름차순으로 정렬

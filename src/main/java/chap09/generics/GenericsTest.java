@@ -1,11 +1,9 @@
 package chap09.generics;
-
 public class GenericsTest {
     public static void main(String[] args) {
-
         //**[1] : Generics 사용하지 않을 경우**//
         SimpleBox sb = new SimpleBox();
-        sb.setObject(33); // 자동 형변환(promotion)이 일어나서 error 가 안뜸. Promotion : Integer => Object
+        sb.setObject(33); // 자동 형변환(promotion)이 일어나서 error가 안뜸. Promotion : Integer => Object
         Integer n1 = (Integer) sb.getObject(); // Type Casting (명시적 형변환) : Object => Integer
         System.out.println(n1);
 
@@ -31,6 +29,5 @@ public class GenericsTest {
         rawBox.setT(22);
         Integer n3 = (Integer) rawBox.getT(); // Casting 해야함.
         System.out.println(n3);
-
     }
 }

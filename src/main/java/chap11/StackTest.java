@@ -1,7 +1,5 @@
 package chap11;
-
 import java.util.Stack;
-
 public class StackTest {
     public static void main(String[] args) {
         Stack<String> st1 = new Stack<>(); // Stack은 Class이다.  Generic class인데 default Constructor
@@ -18,7 +16,5 @@ public class StackTest {
         System.out.println(st1.pop()); // stack에서 체리를 pop()하고 데이터 출력
         System.out.println(st1.peek()); // 바나나 출력
         System.out.println(st1.pop()); // stack에서 바나나를 pop()하고 데이터 출력
-
-
     }
 }

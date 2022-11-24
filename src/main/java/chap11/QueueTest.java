@@ -1,5 +1,4 @@
 package chap11;
-
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -28,9 +27,7 @@ public class QueueTest {
             // IllegalStateException : RuntimeException의 종류.. 메서드에 부적절한 인수를 전달할 때 발생함.
             e.printStackTrace();
         }
-
         System.out.println("head 엿보기 : " + q.peek()); // 사과 출력
-
     }
 }
 /** Queue는 Stack과 다르게  false, null 값을 반환하는 메서드가 존재한다 **/

@@ -1,20 +1,13 @@
 package chap02;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-public class Pyramid02 {
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringBuilder sb = new StringBuilder();
-
-        int N = Integer.parseInt(br.readLine());
-
-        for(int i = 1; i <= N; i++){
+public class Pyramid02 { // 피라미드의 절반만 출력
+    public static void main(String[] args) {
+        // Ctrl + / : Comment 처리 (주석 처리)
+        // Ctrl + z : undo
+        for(int i = 1; i <= 5; i++){ // 입력된 수만큼 반복문 실행
             for(int j = 0; j < i; j++){
-                sb.append("*");
+                System.out.print("*"); // i보다 작은 수만큼 * 출력
             }
-            sb.append("\n");
+            System.out.println(); // 다음줄로 넘어감
         }
-        System.out.println(sb);
     }
 }

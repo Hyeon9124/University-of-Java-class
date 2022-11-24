@@ -1,11 +1,8 @@
 package chap11;
-
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
-
 public class SetTest2 {
-
     static class Fruit{ // Fruit이라는 class는 DataBase에 있는 table과 Mapping 되어 있음
         String name; // field
 
@@ -38,7 +35,6 @@ public class SetTest2 {
 //                    "name='" + name + '\'' +
 //                    '}';
 //        }
-
     }
     public static void main(String[] args) {
         Set<Fruit> fruits = new HashSet<>();
@@ -57,6 +53,5 @@ public class SetTest2 {
         // (2) hashConde() 와 equals() method가 **있을** 경우
         //  1
         //[chap11.SetTest2$Fruit@1801ef]
-
     }
 }
