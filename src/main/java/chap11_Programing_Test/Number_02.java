@@ -47,7 +47,7 @@ public class Number_02 {
 
         // foreach() 문을 사용하여 이름과 나이를 출력
         // Set은 순서가 없기 때문에 프로그래밍 문제 예시 답과 다르게 나올 수 있음.
-        set.forEach((Person) -> System.out.println(Person.name + " : " + Person.age)); // Lambda 사용하여 출력
+        set.forEach(Person -> System.out.println(Person.name + " : " + Person.age)); // Lambda 사용하여 출력
 
         // Iterator(반복자)를 사용하여 HashSet의 Collection 원소를 출력한다.
         Iterator<Person> itr = set.iterator(); // Set<E>이 Person class이므로 Iterator도 Person을 넣어준다.
