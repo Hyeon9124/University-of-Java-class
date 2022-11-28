@@ -9,7 +9,7 @@ public class Pyramid03 {
                 System.out.print(" ");
             } // j
             for( k = 0; k < 2 * i + 1; k++){
-                System.out.print("*"); // 2k - 1개를 차례대로 출력
+                System.out.print("*"); // 2k + 1개를 차례대로 출력
             } // k
             System.out.println(); // 다음줄로 넘어감
         } // i
