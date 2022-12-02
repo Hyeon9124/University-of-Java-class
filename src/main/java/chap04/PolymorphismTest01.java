@@ -1,9 +1,9 @@
 package chap04;
 public class PolymorphismTest01 {
     public static void main(String[] args) {
-
         // (1)
-        /*Animal animal = new Animal();
+        /*
+        Animal animal = new Animal();
         Cat cat = new Cat();
         Dog dog = new Dog();
         Tiger tiger = new Tiger();
@@ -42,3 +42,17 @@ public class PolymorphismTest01 {
     }
 }
 // dot + method 필드가 있으면 dot + field
+
+/*
+  객체를 생성할 때는 new 연산자를 사용하는데, 이 연산자는 생성한 객체의 주소를 반환한다.
+  일반적으로 객체를 생성할 때 해당 객체를 참조할 변수부터 선언하며, 이는 생성한 객체를 여러번 참조하기 위해서 이다.
+  객체를 두 번 이상 참조하지 않으면 참조 변수를 선언하지 않아도 된다.
+ */
+/*
+  (1) : 객체 변수 선언과 생성
+  클래스 이름 변수 = new 클래스 이름();
+  (변수의 타입)(클래스는 참조 타입이므로 참조 변수 또는 참조 타입 변수) = new (생성자)
+
+  (2) : 변수를 생략한 객체 생성
+   new 클래스 이름();
+ */
