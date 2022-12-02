@@ -14,6 +14,9 @@ public class StringTokenizerTest {
     }
 }
 /*
- StringTokenizer(String s) : 주어진 문자열을 기본 구분자로 파싱한 StringTokenizer 객체를 생성한다.
- StringTokenizer(String s, String delim) 주어진 문자열을 delim 구분자로 파싱한 StringTokenizer 객체를 생성한다.
+  StringTokenizer 클래스는 문자열을 token으로 분리하는 데 사용한다.
+  토큰은 분리한 문자열을 의미하며, 공백이나 줄 바꿈 등 구분자(delimiter)를 사용해 문자열을 분리한다.
+
+  StringTokenizer(String s) : 주어진 문자열을 기본 구분자로 파싱한 StringTokenizer 객체를 생성한다.
+  StringTokenizer(String s, String delim) 주어진 문자열을 delim 구분자로 파싱한 StringTokenizer 객체를 생성한다.
  */
