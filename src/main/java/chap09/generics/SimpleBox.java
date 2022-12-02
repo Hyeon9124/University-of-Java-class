@@ -16,5 +16,3 @@ public class SimpleBox {
      Generic class            Generic interface
   Casting(명시적 형변환)     Promotion(자동 형변환)
  */
-
-// <> : Angle Bracket

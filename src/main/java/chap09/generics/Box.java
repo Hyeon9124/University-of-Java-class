@@ -25,3 +25,4 @@ public class Box<T> { // T는 타입, Generic Class
   T : 타입(Type)
   V : 값(Value)
  */
+// <> : Angle Bracket
