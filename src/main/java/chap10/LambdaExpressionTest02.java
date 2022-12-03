@@ -26,6 +26,15 @@ public class LambdaExpressionTest02 {
         // (4) : () 생략 가능
         p = s -> System.out.println(s); //
         p.print("Parameter one, return no 04"); // 원하는 값을 넣어준다.
+
+        p = System.out::println; // method Reference, :: 은 method 참조 연산자이다.
+        p.print("Parameter one, return no 05 study");
     }
 }
-// (4) 코드를 사용하는 것이 좋다.
+// (4)또는 (5)와 같은 코드를 사용하는 것이 좋다.
+
+/*
+  static method Reference : 클래스 이름::정적 메서드
+  instance method Reference : 객체 이름::인스턴스 메서드(혹은 클래스 이름::인스턴스 메서드)
+  Constructor Reference : 클래스 이름::new 혹은 배열타입이름::new
+ */

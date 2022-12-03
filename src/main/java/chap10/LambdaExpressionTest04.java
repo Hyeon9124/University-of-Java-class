@@ -10,8 +10,12 @@ public class LambdaExpressionTest04 {
     public static void main(String[] args) {
         LengthCount lc; // LengthCount 변수 선언
 
-        // (1)
+        // (1) 일반적인 Lambda Expression
         lc = s -> s.length(); // result : 18
-        System.out.println(lc.len("Semyung University")); // spacebar도 count된다.
+        System.out.println(lc.len("Semyung University")); // spacebar도 count 된다.
+
+        // (2) method Reference
+        lc = String::length; // result : 6
+        System.out.println(lc.len("study "));
     }
 }
