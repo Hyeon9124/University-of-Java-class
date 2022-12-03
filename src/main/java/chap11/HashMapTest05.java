@@ -13,7 +13,7 @@ public class HashMapTest05 {
         map.put(3, "포도");
         map.put(4, "딸기");
 
-        /** Lambda : () -> {}) : 기억할 것!! **/
+        /** Lambda : () -> {} : 기억할 것!! **/
 
         // (1)
         // map.forEach((key, value) -> {System.out.println(key + " : " + value);});

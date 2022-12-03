@@ -18,13 +18,11 @@ public class HashMapTest02 {
         map.put(3, "포도");
         map.put(4, "딸기");
 
-
         Set<Integer> keySet = map.keySet(); // key의 요소들을 순회
 
         for(Integer key : keySet){ // foreach로 출력 --> 개선된 for문
             System.out.println(key + " : " + map.get(key)); // key : value 형태로 출력
         }
         /** map.get(key) : key에 해당하는 value 값을 가져온다.. **/
-
     }
 }
