@@ -30,7 +30,7 @@ public class MainThread {
     }
 }
 // Runnable Interface, Thread Class : Java.lang 패키지에 포함되어 있다. -> import 필요 X
-// Thread 자식 객체를 생성하거나 Runnable 구현 객체로 Thread 객체를 생성하능 이유는 단일 상속 한계를 극복하기 위함이다.
+// Thread 자식 객체를 생성하거나 Runnable 구현 객체로 Thread 객체를 생성하는 이유는 단일 상속 한계를 극복하기 위함이다.
 
 /*
   Thread() : Thread 객체를 생성한다.
