@@ -21,7 +21,7 @@ public class RunnableTestUsingMethodReference {
 
         /* 메소드 참조(method reference)는 람다 표현식이 단 하나의 method만을 호출하는 경우에 해당 람다 표현식에서
            불필요한 매개변수를 제거하고 사용할 수 있도록 해준다.
-           세미콜론 두개(::)로 method를 참조할 수 있다.
+           세미콜론 두 개(::)로 method를 참조할 수 있다.
         */
     }
 }
