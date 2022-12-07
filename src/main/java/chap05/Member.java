@@ -41,6 +41,7 @@ public class Member { // 객체 지향 프로그래밍에서 주요 특징 중 �
     public void setAge(int age) {
         this.age = age;
     }
+
     // Constructor : return type이 없다.
     // Object가 생성될 때 필드를 초기화 하거나 Object 사용을 준비한다.
     // 일반적으로 공개되어야 하므로 public으로 선언되지만 아닐 수도 있다. private으로 설정할 수도 있음.
@@ -59,6 +60,7 @@ public class Member { // 객체 지향 프로그래밍에서 주요 특징 중 �
     public Member(){
 
     }
+    // toString() 과 equals() and hashCode()는 chap11에서 설명
     // toString()
     @Override
     public String toString() {

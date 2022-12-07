@@ -11,5 +11,4 @@ public class Tiger extends  Animal{ // Tiger Class는 extends로 Animal Class를
     public void tigerAtti(){ // tigerAtti() method
         System.out.println("호랑이는 꽂감을 좋아하는 특징이 있습니다.");
     }
-    // 접근할 수 있도록 public으로 설정
 }

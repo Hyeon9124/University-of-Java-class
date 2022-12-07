@@ -29,12 +29,13 @@ public class SetTest2 {
             return Objects.hash(name);
         }
 
-//        @Override
-//        public String toString() {
-//            return "Fruit{" +
-//                    "name='" + name + '\'' +
-//                    '}';
-//        }
+        // toString() method는 객체가 가지고 있는 정보나 값들을 문자열로 만들어 return하는 메소드 이다.
+        @Override
+        public String toString() {
+            return "Fruit{" +
+                    "name='" + name + '\'' +
+                    '}';
+        }
     }
     public static void main(String[] args) {
         Set<Fruit> fruits = new HashSet<>();
@@ -46,11 +47,11 @@ public class SetTest2 {
         System.out.println(fruits.size());
         System.out.println(fruits); // hashcode
         
-        // (1) hashConde() 와 equals() method가 **없을** 경우
+        // (1) hashConde() 와 equals() method가 없는 경우
         // 2
         //[Fruit{name='사과'}, Fruit{name='사과'}]
 
-        // (2) hashConde() 와 equals() method가 **있을** 경우
+        // (2) hashConde() 와 equals() method가 있는 경우
         //  1
         //[chap11.SetTest2$Fruit@1801ef]
     }

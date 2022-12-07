@@ -11,7 +11,6 @@ public class Cat extends Animal{ // Cat Class는 extends로 Animal Class를 상�
     public void catAtti(){ // catAtti() method
         System.out.println("고양이는 그루밍을 하는 특징이 있습니다.");
     }
-    // 접근할 수 있도록 public으로 설정
 }
 // ctrl + o : 오버라이딩
 

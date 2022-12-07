@@ -27,6 +27,7 @@ public class LambdaExpressionTest02 {
         p = s -> System.out.println(s); //
         p.print("Parameter one, return no 04"); // 원하는 값을 넣어준다.
 
+        // (5) : method reference
         p = System.out::println; // method Reference, :: 은 method 참조 연산자이다.
         p.print("Parameter one, return no 05 study");
     }

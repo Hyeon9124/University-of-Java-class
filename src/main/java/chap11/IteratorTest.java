@@ -32,10 +32,10 @@ public class IteratorTest {
         }
     }
 }
-/**
+/*
 iterator : 자바 Collection에 저장되어 있는 요소들을 순회하는 interface이다.
 - Collection Framework에 대해 공통으로 사용이 가능하고 사용법이 간단하다.
 
 정의 : Iterator<T> iterator = Collection.iterator();
 iterator는 class, interface 모두 사용 가능함.
- **/
+ */

@@ -12,6 +12,7 @@ public class MethodCallStackTest01 {
             String str = reader.readLine(); // 문자열을 입력 받는 코드
             System.out.println(str);
             reader.close();
+            // FileReader 객체를 활용 후 닫지 않고 프로그램을 종료하면 파일에 데이터가 다 씌여지기 전에 손실이 일어날 수 있다.
 
         } catch (IOException e) { // 핸들러, catch문은 여려 개의 블록이 있을 수 있다.
             e.printStackTrace(); // printStackTrace(System.err) : Throwable 객체와 추적 정보를 화면에 출력한다.

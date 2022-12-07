@@ -32,7 +32,6 @@ public class AnimalTest {
   class (자식 클래스 이름) extends (부모 클래스 이름){
      // 멤버
   }
-
  */
 
 /*

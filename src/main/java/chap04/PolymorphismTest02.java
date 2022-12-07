@@ -12,7 +12,7 @@ public class PolymorphismTest02 {
 
         // (1) for문
 //        for (int i = 0; i < animals.length; i++) {
-//            animals[i].move(); // arr 기호를 붙여 쓰기 때문에 foreach 사용하는 것이 좋음
+//            animals[i].move(); // arr 기호를 붙여 쓰기 때문에 foreach 사용하는 것이 좋다.
 //        }
 
         // (2) 향상된 for -> foreach
@@ -29,5 +29,4 @@ public class PolymorphismTest02 {
 
   객체참조변수.필드 : instance variable
   객체참조변수.메서드 : instance method
-
  */

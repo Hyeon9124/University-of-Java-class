@@ -11,5 +11,4 @@ public class Dog extends Animal{ // Dog Class는 extends로 Animal Class를 상�
     public void dogAtti(){ // dogAtti() method
         System.out.println("강아지는 꼬리를 흔드는 하는 특징이 있습니다.");
     }
-    // 접근할 수 있도록 public으로 설정
 }

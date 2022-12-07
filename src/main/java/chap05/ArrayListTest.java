@@ -15,12 +15,12 @@ public class ArrayListTest {
         int sum = 0; // sum을 0으로 초기화
 
         while((data = scanner.nextInt()) >= 0){ // data가 0보다 크거나 같을때 까지 입력을 받는다.
-            scores.add(data); // 데이터 추가
+            scores.add(data); // add() 통해 데이터 추가
         }
         for(int i = 0; i < scores.size(); i++){ // ArrayList의 크기만큼 반복문 실행
             sum += scores.get(i); // List의 데이터를 가져오고 sum에 데이터를 더한다.
         }
-        System.out.println("평균 : " + (double) sum / scores.size());
+        System.out.println("평균 : " + (double) sum / scores.size()); // 명시적 형 변환를 통해 출력(double)
     }
 }
 /*

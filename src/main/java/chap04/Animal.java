@@ -1,5 +1,6 @@
 package chap04;
 public class Animal { // Animal Class
+    // 접근할 수 있도록 public으로 설정
     public void move(){ // move() method
         System.out.println("동물들은 각자의 움직임이 다릅니다..");
     }
@@ -7,7 +8,6 @@ public class Animal { // Animal Class
     public void sound() { // sound() method
         System.out.println("동물들은 각자의 소리가 다릅니다..");
     }
-    // 접근할 수 있도록 public으로 설정
 }
 /*
  객체(Object) : 현실 세계에서 구체적이거나 추상적인 사물(개념)을 의미한다.
@@ -24,7 +24,7 @@ public class Animal { // Animal Class
 /*
  객체 지향 프로그래밍 (OOP : Object-Oriented Programming)
  객체 지향 프로그래밍의 클래스가 동일한 객체를 생산하는 틀이나 설계도에 해당
- (예 : 붕어빵을 만들기 위헤 밀가루 반죽, 앙금 등 재료가 필요하고 붕어빵 형틀도 있어야 한다.)
+ (예 : 붕어빵을 만들기 위해 밀가루 반죽, 앙금 등 재료가 필요하고 붕어빵 형틀도 있어야 한다.)
 
  클래스라는 틀로 만든 객체가 해당 클래스의 instance이다.
  예를 들어 붕어빵은 붕어빵틀의 instance다. 클래스에서 객체를 생성하는 과정을 인스턴스화라고 한다.
